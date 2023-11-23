@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.selectChampion{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.selectGauche{
+    height: 70%;
+    width: 50%;
+    display: flex;
+}
+
+.selectDroite{
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.gaucheIronman, .droiteIronman{
+    background-image: url('../img/ironman.png');
+    height: 100%;
+    width: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gaucheObiwan, .droiteObiwan{
+    background-image: url('../img/obiwan.jpg');
+    height: 100%;
+    width: 25%;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.gaucheReine, .droiteReine{
+    background-image: url('../img/reinedesneige.jpg');
+    height: 100%;
+    width: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.gaucheShrek, .droiteShrek{
+    background-image: url('../img/shrek.jpg');
+    height: 100%;
+    width: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.combatChampion{
+    display: none;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.combatGauche{
+    height: 70%;
+    width: 40%;
+}
+
+.combatDroite{
+    height: 70%;
+    width: 40%;
+}
+
+.imgCombatGauche{
+    height: 100%;
+    width: 100%;
+}
+.imgCombatDroite{
+    height: 100%;
+    width: 100%;
+}
